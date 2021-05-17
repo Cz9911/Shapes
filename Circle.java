@@ -11,4 +11,12 @@ class Circle {
   public String toString(){
     return color + " " + radius;
   }
+  //Circumference calcs
+  public double getCircumference(){
+    return 2 * Math.PI * radius;
+  }
+  
+  public double getArea(){
+    return Math.PI * Math.pow(radius, 2);
+  }
 }

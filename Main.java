@@ -1,6 +1,7 @@
 class Main {
   public static void main(String[] args) {
-    Circle circle1 = new Circle(50, "Red");
+    //Circle stuff
+		Circle circle1 = new Circle(50, "Red");
     System.out.println(circle1);
     double c = circle1.getCircumference();
     System.out.printf("circumference = %.2f\n", c);
@@ -12,7 +13,13 @@ class Main {
     double a2 = traingle1.getArea();
     System.out.printf("Area = %.2f\n", a2);
     double p = traingle1.getPerimeter();
-    System.out.printf("Perimeter = %.2f\n", p)
+    System.out.printf("Perimeter = %.2f\n", p);
+		//Square stuff
+		Square square1 = new Square(15, "Yellow");
+		System.out.println(square1);
+		double a3 = square1.getArea();
+		System.out.printf("Area = %.2f\n", a3);
+
     
   }
 }

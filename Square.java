@@ -12,7 +12,11 @@ public String toString(){
 	return color + " " + sidels;
 }
 //Area calcs
-public double getArea(){
+public int getArea(){
+	return sidels * sidels;
+}
+//Perimeter calcs
+public int getPerimeter(){
 	return sidels * 4;
 }
 }

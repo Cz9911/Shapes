@@ -12,13 +12,15 @@ class Main {
     System.out.println(traingle1);
     double a2 = traingle1.getArea();
     System.out.printf("Area = %.2f\n", a2);
-    double p = traingle1.getPerimeter();
-    System.out.printf("Perimeter = %.2f\n", p);
-		//Square stuff
-		Square square1 = new Square(15, "Yellow");
-		System.out.println(square1);
-		double a3 = square1.getArea();
-		System.out.printf("Area = %.2f\n", a3);
+    int p = traingle1.getPerimeter();
+    System.out.printf("Perimeter = %d\n", p);
+	//Square stuff
+	Square square1 = new Square(15, "Yellow");
+	System.out.println(square1);
+	int a3 = square1.getArea();
+	System.out.printf("Area = %d\n", a3);
+	int p2 = square1.getPerimeter();
+	System.out.printf("Perimeter = %d\n", p2);
 
     
   }

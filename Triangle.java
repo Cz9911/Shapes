@@ -14,7 +14,7 @@ class Triangle{
   public double getArea(){
     return Math.sqrt(3) / 4 * Math.pow(sideLs, 2);
   }
-  public double getPerimeter(){
+  public int getPerimeter(){
     return sideLs * 3;
   }
 }

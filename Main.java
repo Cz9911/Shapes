@@ -21,7 +21,10 @@ class Main {
 	System.out.printf("Area = %d\n", a3);
 	int p2 = square1.getPerimeter();
 	System.out.printf("Perimeter = %d\n", p2);
-
-    
+    //Hexagons
+	RegularPolygon hexagon = new RegularPolygon(11, 6, "Red");
+    System.out.println(hexagon);
+    double a4 = hexagon.getArea(); 
+	System.out.printf("Area = %.2f\n", a4);
   }
 }

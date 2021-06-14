@@ -26,5 +26,9 @@ class Main {
     System.out.println(hexagon);
     double a4 = hexagon.getArea(); 
 	System.out.printf("Area = %.2f\n", a4);
+	int p3 = hexagon.getPerimeter();
+	System.out.printf("Perimeter = %d\n", p3);
+	//Pentagons
+	
   }
 }

@@ -1,20 +1,14 @@
-class Triangle{
+class Triangle extends RegularPolygon{
   //Fields
-  private int sideLs;
-  private String color;
   //Constructors
   public Triangle(int sideLs, String color){
-    this.color = color;
-    this.sideLs = sideLs;
+    super(sideLs, 3, color);
+   
   } 
-  //toString
+  //toString 
+  @Override
   public String toString(){
-    return color + " " + sideLs;
+    return this.getColor() + " Triangle " + this.getSideLs();
   }
-  public double getArea(){
-    return Math.sqrt(3) / 4 * Math.pow(sideLs, 2);
-  }
-  public int getPerimeter(){
-    return sideLs * 3;
-  }
+  
 }

@@ -13,6 +13,14 @@ public RegularPolygon(int sidels, int numSides, String color){
 public String toString(){
 	return color + " " + numSides + " " + sidels;
 }
+//getColor
+public String getColor(){
+	return color;
+}
+//get Sidels
+public int getSideLs(){
+	return sidels;
+}
 //Perimeter stuff
 public int getPerimeter(){
 	return numSides * sidels;
